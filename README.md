@@ -12,12 +12,8 @@ Swagger WILL NOT work just by adding dependencies, its a known issue. With more 
 
 In other words, the harness and classes are there, but it will not create the Swagger magic. 
 
-About Unit Tests.
-We can use some library like Mockito to write unit tests for controller/services. But for this app, it will be an overkill. If there is an architectural decision to follow TDD, as a developer I can gladly follow instructions.
-
-So respectfully declining the invitation to 'test the living daylight'...
-
-There is an error check which looks if a line in the city.txt has a valid pair, it will skip that line and alert, for this app, its a better approach than a UNIT TEST failure. 
+About Unit Tests...
+There is also an error check which looks if a line in the city.txt has a valid pair, it will skip that line and alert if its not valid, for this app, its a better approach than a UNIT TEST failure if there is some typo in the file. 
 
 ****IMPORTANT
 lombok.jar
