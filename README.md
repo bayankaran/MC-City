@@ -1,10 +1,10 @@
 # city-explorer
 
-*****VERY IMPORTANT - Please read this fully. 
+*****IMPORTANT - Please read. 
 
 This app will do the one thing asked in the challenge and will do it well.
 
-If you require fast performance or "what if there are 100 million cities" then this approach may or may not work, depending on JVM settings, hardware etc. 
+If you require fast performance or "what if there are a million cities" then this approach may or may not work, depending on JVM settings, hardware etc. 
 
 About SWAGGER
 https://github.com/springfox/springfox/issues/2932
@@ -13,7 +13,7 @@ Swagger WILL NOT work just by adding dependencies, its a known issue. With more 
 In other words, the harness and classes are there, but it will not create the Swagger magic. 
 
 About Unit Tests...
-There is also an error check which looks if a line in the city.txt has a valid pair, it will skip that line and alert if its not valid, for this app, its a better approach than a UNIT TEST failure if there is some typo in the file. 
+In addition to unit tests, there is an error check which looks if a line in the city.txt has a valid pair, it will skip that line and alert if its not valid, for this app, its a better approach than a UNIT TEST failure if there is some typo in the file. 
 
 ****IMPORTANT
 lombok.jar
